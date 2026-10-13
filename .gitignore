@@ -1,0 +1,15 @@
+# Local data and secrets
+data/
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Crawler cache
+storage/
+
+# macOS
+.DS_Store

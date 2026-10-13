@@ -1,0 +1,14 @@
+{
+  "queries": [
+    "\"Example Solar Farm\" planning application",
+    "\"Example Solar Farm\" objection OR approved OR council"
+  ],
+  "project": "Example Solar Farm",
+  "max_results": 10,
+  "delay": 2,
+  "max_retries": 3,
+  "country": "uk",
+  "language": "en",
+  "require_project_name": false,
+  "extra_blocked_domains": []
+}

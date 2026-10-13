@@ -1,0 +1,24 @@
+# Phase 1: scraping
+crawlee>=1.0.0
+python-dotenv>=1.0.0
+beautifulsoup4>=4.12.0
+aiohttp>=3.9.0
+click>=8.1.7
+
+# Phase 2a: PDF extraction (OCR also needs: brew install tesseract poppler)
+pdfplumber>=0.10.0
+pytesseract>=0.3.10
+pdf2image>=1.16.0
+Pillow>=10.0.0
+
+# Phase 2a: Word / RTF extraction
+python-docx>=0.8.11
+striprtf>=0.0.26
+
+# Optional .doc support uses macOS's built-in textutil (no Python package needed)
+
+# Web search crawler (google_search_crawler.py): main-text extraction from web pages
+trafilatura>=2.0.0
+
+# Tests
+pytest>=8.0.0
